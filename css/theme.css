@@ -1,0 +1,78 @@
+/* 
+Stylesheet for index.html | edu.html | contacts.html
+*/
+
+/* index.html | general */
+body {
+    background-image: url("images/bg.jpg");
+}
+
+nav {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+nav > a {
+    text-align: center;
+    color: white;
+}
+.profile {
+    margin-top: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-transform: uppercase !important;
+    text-shadow: 2px 2px 3px;
+    color: #ffd700;
+    font-family: serif;
+    background-color:black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#downline {
+    margin-top: 100px;
+}
+
+.text {
+    padding-top: auto;
+    padding-bottom: auto;
+    padding: san-serif;
+    font-size: 19.5px;
+    text-align: center;
+}
+
+/* Educational Background */
+
+#table {
+    padding-top: 200px !important;
+}
+
+/* Contacts */
+#goback {
+    text-align: center;
+    padding: 10px;
+    border: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#goback > a:link {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.979);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#goback > a:visited {
+    color: rgba(250, 84, 7, 0.966);
+}
+
+#goback > a:hover {
+    color:hsl(60, 53%, 94%);
+    font-variant: normal;
+}
